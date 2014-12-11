@@ -12,7 +12,7 @@ Let's learn our first CLI command, the "where am I right now?" of CLI.
 
 The phrase is very simple: `pwd`
 
-Yes, it looks like shorthand for "password.""
+Yes, it looks like shorthand for "password."
 
 `pwd` means "print working directory." Since all three of those words will come up throughout working with the CLI, and in other documentation you might read, let's define them quickly here.
 
