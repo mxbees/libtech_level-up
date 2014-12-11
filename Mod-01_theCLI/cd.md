@@ -101,7 +101,7 @@ See what's different? There's a \\ in front of the space. That \\ is called an e
 
 Phew! I can still access my directory.
 
-Then there's** \* **, which is a wildcard in programming just like it is in database searching.
+Then there's \*, which is a wildcard in programming just like it is in database searching.
 
 What if I can't remember whether I called a directory "Colloquia" or "Colloquium"? That's where the wildcard comes in. What if I type this?
 
