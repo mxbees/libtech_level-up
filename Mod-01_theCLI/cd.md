@@ -12,7 +12,7 @@ Unlike `pwd`, `cd` has to be followed by "arguments" which you can think of as "
 
 If I type `pwd` right now, I'm going to get:
 
-    $ `pwd
+    $ pwd
     /c/Users/[me]
 
 So now I know where I am. Now I want to go to my Documents folder.
@@ -35,7 +35,7 @@ I told it to move me down into the Documents folder and then used `pwd` to make 
     $ pwd
     /c/Users/[me]/Documents/ProfDev/webinars
 
-As long as you know the file path, you can move as far down it as you want. You'll learn in a bit what you can do when you get there.
+As long as you know the filepath, you can move as far down it as you want. You'll learn in a bit what you can do when you get there.
 
 # Backing It Up!
 
@@ -65,7 +65,7 @@ You can use as many `..` as possible to go as far back as you want, but...
 
 # Absolute Filepaths Do Not Corrupt Absolutely
 
-At some point, you might say "wait, ok, how can I keep track of all the ../../../../../../?" And after a while, you may decide that it's just a bit ridiculous to do all those ../../../ and just want to go from one place to another.
+At some point, you might say "wait, ok, how can I keep track of all the `../../../../../../`?" And after a while, you may decide that it's just a bit ridiculous to do all those `../../../` and just want to go from one place to another.
 
 To do this, you have to use the absolute filepath. **"Absolute"** in this case means "full." The kinds of filepaths we were using before were "relative." **"Relative"** in this case means "path as related to our starting place."
 
@@ -101,20 +101,20 @@ See what's different? There's a \\ in front of the space. That \\ is called an e
 
 Phew! I can still access my directory.
 
-Then there's **\***, which is a wildcard in programming just like it is in database searching.
+Then there's** \* **, which is a wildcard in programming just like it is in database searching.
 
-What if I can't remember whether I called it "Collection Committee" or "Collections Committee"? That's where the wildcard comes in. What if I type this?
+What if I can't remember whether I called a directory "Colloquia" or "Colloquium"? That's where the wildcard comes in. What if I type this?
 
-    $ cd Documents/Coll*\ Committee
+    $ cd Documents/Collo*
     $ pwd
-    /c/users/[me]/Documents/Collections Committee
+    /c/users/[me]/Documents/Colloquia
 
 Ok, now I know the name! I'm also where I wanted to be. You can use more than one \* in your path. The only thing is, you have to use enough for the system to know which directory you mean, so:
 
     $ cd Documents/Co*
     sh.exe": cd: Co*: No such file or directory
 
-It sees directories called "Code" and "Collections Committee" and gives me an error because I have too many possible right answers.
+It sees directories called "Code," "Collections Committee," and "Colloquia" and gives me an error because I have too many possible right answers.
 
 # Review
 
@@ -124,7 +124,7 @@ So, we've learned that you can use `cd` to get all over your filesystem.
 
 Will take you into that folder name.
 
-We learned you can move backward using .. and combine it with forward travel to go back and forward down another branch of your filesystem.
+We learned you can move backward using `..` and combine it with forward travel to go back and forward down another branch of your filesystem.
 
 We learned that you can use an absolute filepath to go somewhere completely different.
 
