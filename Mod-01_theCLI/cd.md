@@ -8,7 +8,7 @@ The next command we're going to learn is `cd`, "change directories."
 
 # More than just a CD
 
-Unlike `pwd`, `cd` has to be followed by something called "arugments" which you can think of as "inputs." Think of it as inputting info into a form.
+Unlike `pwd`, `cd` has to be followed by "arguments" which you can think of as "inputs." Think of it as inputting info into a form.
 
 If I type `pwd` right now, I'm going to get:
 
