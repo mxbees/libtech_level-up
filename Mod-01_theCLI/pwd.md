@@ -1,10 +1,12 @@
 # Finding Where We Are &mdash; Directories, Folders, and Paths
 
-First thing, we have to figure out where they are. You're probably familiar with the idea of folders. And you may have seen things like C:\Users\Me\Documents or /Users/Me/Documents and recognize that as the path to a folder. You probably won't see the slashes when you're looking at the file in Explorer or Finder, just the names of each level of folder.
+First thing, we have to figure out where they are. You're probably familiar with the idea of folders. And you may have seen things like `C:\Users\Me\Documents` or `/Users/Me/Documents` and recognize that as the path to a folder. You probably won't see the slashes when you're looking at the file in Explorer or Finder, just the names of each level of folder.
 
 A folder is the same as a directory and we're going to use that term for it from now on. But it'll be the same thing, so when you see "directory," think "folder."
 
-So...when you open the CLI, how do you know where you are in the directory structure?
+So...when you open the CLI, how do you know where you are in the directory structure, i.e. in the levels of folders?
+
+What about when you've been moving around and can't remember whether the order of directories is `/Documents/Professional Development/webinars/2005/WhereIAmNow` or whether it's `/Documents/Professional Development/2005/webinars/WhereIAmNow`?
 
 # PWD - Print Working Directory
 
@@ -16,11 +18,11 @@ Yes, it looks like shorthand for "password."
 
 `pwd` means "print working directory." Since all three of those words will come up throughout working with the CLI, and in other documentation you might read, let's define them quickly here.
 
-Print &mdash; doesn't mean a printer like you might think. It generally means making something display on your screen. In this case, it means that by executing the command (pressing Enter/Return) you will be making the computer output information onto your screen, in the interface.
+**Print** &mdash; doesn't mean a printer like you might think. It generally means making something display on your screen. In this case, it means that by executing the command (pressing Enter/Return) you will be making the computer output information onto your screen, in the interface.
 
-Working &mdash; means current or the one that we're in right now. Like when you have an Explorer or Finder window open, you're in one directory and can move up or down. Working is that directory you're in at the moment.
+**Working** &mdash; means current or the one that we're in right now. Like when you have an Explorer or Finder window open, you're in one directory and can move up or down. Working is that directory you're in at the moment.
 
-Directory &mdash; as we said above, means the same as "folder."
+**Directory** &mdash; as we said above, means the same as "folder."
 
 # Let's Use PWD
 
