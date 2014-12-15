@@ -1,6 +1,6 @@
 # Moving from A to B to A to C with CD
 
-Thanks to `pwd` we can now turn on the CLI's GPS and find out where we are.
+Thanks to `pwd` we can now turn on the CLI's GPS and find out where we are. And, thanks to `ls`, we can see what files and directories are in the directory we're currently in.
 
 But now, how do we get from Point A to Point B? What other points can we get to?
 
@@ -21,6 +21,8 @@ I'm going to type in `cd` followed by an argument telling it where I want to go.
 
     $ pwd
     /c/Users/[me]
+    $ ls
+    [lots of stuff, including 'Documents']
     $ cd Documents
     $ pwd
     /c/Users/[me]/Documents
@@ -35,7 +37,7 @@ I told it to move me down into the Documents folder and then used `pwd` to make 
     $ pwd
     /c/Users/[me]/Documents/ProfDev/webinars
 
-As long as you know the filepath, you can move as far down it as you want. You'll learn in a bit what you can do when you get there.
+As long as you know the filepath, you can move as far down it as you want. You'll learn in a bit what you can do when you get there. At first, you may have to use `ls` a lot to figure out what the next place you're going is called. But eventually you'll get to know your filepath structure and be able to do it from memory. And if not, `pwd` and `ls` are always there with you.
 
 # Backing It Up!
 
@@ -109,12 +111,12 @@ What if I can't remember whether I called a directory "Colloquia" or "Colloquium
     $ pwd
     /c/users/[me]/Documents/Colloquia
 
-Ok, now I know the name! I'm also where I wanted to be. You can use more than one \* in your path. The only thing is, you have to use enough for the system to know which directory you mean, so:
+Ok, now I know the name! I'm also where I wanted to be. You can use more than one \* in your path, like `/c/users/[me]/Documents/Collo*/Engine*`. The only thing is, you have to use enough of the directory name for the system to know which directory you mean, so:
 
     $ cd Documents/Co*
     sh.exe": cd: Co*: No such file or directory
 
-It sees directories called "Code," "Collections Committee," and "Colloquia" and gives me an error because I have too many possible right answers.
+It sees directories called "Code," "Collections Committee," and "Colloquia" and gives me an error because I have too many possible right answers. A lot of the time, if you have a basic idea of where you're going, you can use \* vs. using `ls`. But `ls` is there for when you end up in a situation where you need the specific name of the directory.
 
 # Review
 
@@ -131,5 +133,3 @@ We learned that you can use an absolute filepath to go somewhere completely diff
 And then we learned a few tricks to deal with weird cases like spaces in the directory name or not being entirely sure what it's called.
 
 # What's Next?
-
-Where we go from here kind of branches out. You'll learn how to use `ls` to learn what's *in* the directory you just navigated to (including names of the directories it contains so you can keep going). You'll learn how to create and delete directories.

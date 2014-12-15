@@ -57,6 +57,5 @@ Sometimes, you'll totally know where you are and you won't worry about `pwd`. Bu
 
 Did you try it in the "Let's Use PWD" section above? If not, open up your terminal and do it now!
 
-How can you keep practicing this? Well, in the next section, which involves traveling between directories, I'll remind you to `pwd` just to confirm where you are. It's a great command because it doesn't mess up whatever you're working on. It just tells you where you are.
+How can you keep practicing this? Well, in the section on `cd`, which involves traveling between directories, I'll remind you to `pwd` just to confirm where you are. It's a great command because it doesn't mess up whatever you're working on. It just tells you where you are.
 
-Next, let's learn about **CD &mdash; Moving from A to B to A to C!**
