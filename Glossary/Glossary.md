@@ -9,3 +9,5 @@ Repository
 Version Control 
 :    A database that takes a snapshot of your project at every point in the project’s history.
 
+Commit 
+:    Save the snapshot of your project at that moment in history to the project's *local* repository. 
